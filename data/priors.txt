@@ -1,0 +1,10 @@
+tau0;dlnormTrunc(x,meanlog=6.907755,sdlog=1,max=1000)
+f0;dlnorm(x,meanlog=-2.302585,sdlog=1)
+a;dunif(x,min=100,max=1000)
+b;dunif(x,min=100,max=1000)
+beta;dnorm(x,mean=0,sd=10)
+betaPer1;0
+betaPer2;dnorm(x,mean=0,sd=10)
+betaPer3;dnorm(x,mean=0,sd=10)
+invsigma2;dgamma(x,shape=1,rate=1)
+sigma2;dinvgamma(x,shape=1,rate=1)
